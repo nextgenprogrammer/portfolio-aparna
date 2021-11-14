@@ -3,12 +3,13 @@ function DisplayBio(bio) {
     var long = document.getElementById('biolong');
     var research = document.getElementById('bioresearch');
     var outreach = document.getElementById('biooutreach');
-    
+    var group = document.getElementById('biogroup');
 
     long.style.display = 'none';
     short.style.display = 'none';
     research.style.display = 'none';
     outreach.style.display = 'none';
+    group.style.display = 'none';
 
     switch(bio)
     {
@@ -26,6 +27,10 @@ function DisplayBio(bio) {
 
         case 'outreach':
             outreach.style.display = 'block';
+            break;
+
+        case 'group':
+            group.style.display = 'block';
             break;
     }
 }
