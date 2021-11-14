@@ -1,0 +1,177 @@
+body, button {
+    background: #fff;
+    color: #000;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    max-width: 350px;
+}
+
+.container {
+    margin: 50px auto;
+    padding: 5px;
+    max-width: 650px;
+}
+
+.header-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+/* Name and Title */
+h1{
+    font-weight: 400;
+    margin: 0;
+}
+
+h2{
+    color: #96979c;
+    font-weight: 300;
+    margin: 0 0 0.5em 0;
+}
+
+
+/* Email  */
+#mail-icon{
+    height: 15px;
+    width: 25px;
+}
+.mail{
+    padding-bottom:21px;
+}
+
+
+/* Social Links */
+.social-account-link img{
+    height: 30px;
+    width: 30px;
+    border: 2px solid #96979c;
+    border-radius: 45px;
+    padding:5px
+}
+
+.social-account-link img:hover{
+    border: 2.3px solid orange;
+    height: 30.5px;
+    width: 30.5px;
+}
+
+
+/* Profile Picture */
+
+.img-frame{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 0 0 10px 0;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.img-frame img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    height: 100%;
+}
+
+
+/* Account Links */
+
+.links{
+    margin: 15px 80px;   
+    padding: 0 15% 0 15%;
+}
+
+.link-item{
+    align-content: center;
+    padding: 0 2% 0 2%;
+}
+
+.toggler{
+    padding: 3% 0 5% 2%;
+
+}
+
+button {
+    width: 145px;
+    height: 30px;
+    border: 2px solid #96979c;
+    border-radius: 50px;
+    box-sizing:border-box;
+    color: #96979c;
+    font-size: 1rem;
+    overflow: visible;
+    transition: 0.4s ease all;
+}
+
+button:hover {
+    background: rgba(150, 151, 156, 0.1);
+    cursor: pointer;
+    border-color:orange;
+    font-size: 1.03rem;
+}
+
+/* CSS for Long and short bio */
+.bio.show
+{
+    display: block;
+}
+
+.bio{
+    display: none;
+    line-height: 24px;
+}
+
+
+/* Bio Links Highlight */
+.bio-switcher a:hover{
+    text-decoration-color: orange;
+    text-decoration-thickness: 3px;
+}
+
+
+/* Mode Toggle Switch */
+.dark-mode-toggler {
+    position: fixed;
+    top: 5px;
+    right: 20px;
+}
+
+li{
+    font-style: italic;
+}
+
+
+/* Footer Quote  */
+.footer-content{
+    text-align: center;
+}
+
+#footer-quote
+{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 250;
+    font-size: 30px;
+}
+
+#footer-author{
+    font-size:15px;
+}

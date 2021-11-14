@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Dr. Aparna Deshpande</title>
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@1,200&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css" type="text/css">
+    <link rel="stylesheet" href="CSS/toggleswitch.css" type="text/css">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header-section">
+        <div class="header-frame">
+          <h1>Aparna Deshpande</h1>
+          <h2>PhD Physics, <br/>IISER Pune</h2> 
+          <div class="mail">
+            <img id="mail-icon" src="Artifacts/mail-icon.jpg" alt="mail-icon"> 
+            aparna.d@iiserpune.ac.in</div>
+          <div class="socail-account">
+            <a href="https://www.linkedin.com/in/aparna-deshpande-01927015/" class="social-account-link"><img src="Artifacts/linkedin_logo.jpg" alt="linkedin"></a>
+            <a href="https://www.iiserpune.ac.in/research/department/physics/people/faculty/regular-faculty/aparna-deshpande/259" class="social-account-link"><img src="Artifacts/IISERPune-Logo.jpg" alt="linkedin"></a>
+          </div>
+        </div>
+        <div class="img-frame">
+          <img id="propic" src="Artifacts/profilephoto.jpg" alt="" />
+        </div>
+      </div>
+
+      <div class="bio-switcher">
+
+        <div class="toggler">
+          <br/><br/>
+          <button id="short" class="show" onclick="DisplayBio('short')"> In Brief</button>
+          <button id="long" onclick="DisplayBio('long')">In Detail</button>
+          <button id="research" onclick="DisplayBio('research')">Research</button>
+          <button id="outreach" onclick="DisplayBio('outreach')"> Outreach</button>
+        </div>
+
+        <div id="bioshort" class="bio short">
+          <br/><br/>
+          Welcome, My name is Aparna. I am a Physics Professor at <a href="https://www.iiserpune.ac.in/">IISER Pune</a>. 
+          I am passionate about and have been assosciated with the reasearch field for around 10+ years.
+          I zoom into the world of 2D materials in my STM (Scanning Tunneling Microscopy) laboratory where we visualize, probe and manipulate matter atom-by-atom.
+        </div>
+        <div id="biolong" class="bio long">
+          <br/><br/>
+          Welcome, My name is Aparna. I am a Physics Professor at <a href="https://www.iiserpune.ac.in/">IISER Pune</a>. 
+          I am passionate about and have been assosciated with the reasearch field for around 10+ years.
+          I zoom into the world of 2D materials in my STM (Scanning Tunneling Microscopy) laboratory where we visualize, probe and manipulate matter atom-by-atom.<br/><br/>
+            <u>Brief Background:</u>
+            <ul>
+                <li>Postdoctoral Research –University of Arizona, Tucson, Arizona, USA (<a href="http://www.physics.arizona.edu/~leroy/">Prof. Brian LeRoy</a>), Northwestern University, Illinois, USA (<a href="https://www.hersam-group.northwestern.edu/">Prof. Mark Hersam)</a></li>
+                <li>Ph.D – Ohio University, USA, <a href="http://www.phy.ohio.edu/~hla/">Prof. Saw Hla</a></li>
+                <li>MSc – <a href="https://mu.ac.in/archives/courses/campus-regions">Mumbai University, Kalina campus</a></li>
+                <li>BSc – <a href="http://www.ruparel.edu/">D.G.Ruparel College, Mumbai</a></li>
+            </ul>
+            <u>About My STM Laboratory:</u><br/>
+            STM Lab is located  in the h-cross block of IISER campus. The h-cross block is specially designed to house all experimental physics labs. Utmost attention has been paid to details like uninterrupted power supply, vibration isolation areas, and custom built interiors for every lab.
+            <p>
+              <u>  The lab houses two major instruments:</u>
+              <ul>
+                <li>Omicron STM operating in ultra high vacuum (UHV) and at low temperature (LT), 77 K and 4.2K (UHV-LT-STM) for dedicated STM, spectroscopy and atom and molecule manipulation experiments at 77 K and 4.2 K</li>
+                <li>Nanosurf atomic force microscope (AFM) and STM, table top models, for projects at room temperature (300 K) and in ambient environment</li>
+              </ul>
+            </p>
+        </div>
+        <div id="bioresearch" class="bio research">
+          <br/><br/>
+          <center><b><u>Current Research Topics</u></b></center>
+          <br/><br/>
+          <b>Borophene:</b> <i>The world of 2D materials, also known as flatland, that emerged with the disovery of graphene not too long ago, has a new entrant named BOROPHENE which is the 2D network of boron atoms. Borophene can host vacancy-mediated superstructural motifs that induce structural polymorphism.</i>
+          <br/><br/>
+          <b>Heterostructures of 2D materials:</b><i> The family of exfoliable materials like graphene, and transition metal dichalcogenides like MoS2, WS2, WSe2 and so on, are amenable to a vertical and lateral stacking in the form of single layers due to the weak Van der Waals interaction between the layers. Such an assembly yields emergent properties.</i>
+          <br/><br/>
+          <b>Charge density waves:</b><i> Charge density waves (CDWs) are a periodic modulation of electronic density concomitant with lattice distortion. The origin of CDWs in TiSe2 and VSe2 is still an open and an interesting question.</i>
+          <br/><br/>
+          <b>2D Van der Waals magnetic materials:</b><i> The isolation of a monolayer of magnetic material has opened an exciting subfield to probe stable magnetism in 2D, and that can have long standing implications in the world of spintronics.</i>
+        </div>
+        <div id="biooutreach" class="bio outreach">
+          <br/><br/>
+          Talk on ‘The Exciting Science of 2D Materials’ by Aparna Deshpande. This lecture was a part of Jidnyasa Virtual Lecture Series at Praj Matrix. 
+          <br/><br/>
+          Talk on '<a href="https://www.youtube.com/watch?v=x2zSeHxMkoE">Reaching out to atoms, molecules and surfaces using scanning tunneling microscopy</a>' in the Science Gappa Series at Dr. Abasaheb Garware College Pune.
+      </div>
+
+      <div class="footer-container">
+        <br/><br/><br/><br/>
+        <div class="footer-content">
+          <span id="footer-quote">" The test of all knowledge is experiment. "</span><br/><br/>
+          <span id="footer-author">- RICHARD FEYNMAN</span>
+        </div>
+      </div>
+
+      <!-- <div class="dark-mode-toggler">
+        <label class="toggle-label"> Dark Mode</label>
+        <label class="switch">
+          <input type="checkbox" unchecked onclick="ToggleMode()">
+          <span class="slider round"></span>
+        </label>
+      </div> -->
+    </div>
+
+    <script src="JS/base.js" type="text/javascript"></script>
+  </body>
+</html>
