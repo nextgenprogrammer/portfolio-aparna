@@ -48,11 +48,13 @@ h2{
 
 /* Email  */
 #mail-icon{
-    height: 15px;
-    width: 25px;
+    height: 10px;
+    width: 22px;
 }
+
 .mail{
-    padding-bottom:21px;
+    padding-bottom:10px;
+    font-size: 15px;
 }
 
 
