@@ -21,8 +21,9 @@ html, body {
 
 .container {
     margin: 50px auto;
-    padding: 5px;
-    max-width: 650px;
+    padding: 10px;
+    /* max-width: 650px; */
+    max-width: 610px;
 }
 
 .header-section {
@@ -49,7 +50,7 @@ h2{
 /* Email  */
 #mail-icon{
     height: 10px;
-    width: 22px;
+    width: 25px;
 }
 
 .mail{
@@ -108,8 +109,13 @@ h2{
 }
 
 .toggler{
-    padding: 3% 0 5% 2%;
+    padding-left: 7%;
 
+}
+
+.button-cover{
+    padding:10px;
+    float:left;
 }
 
 button {
@@ -147,6 +153,10 @@ button:hover {
 .bio-switcher a:hover{
     text-decoration-color: orange;
     text-decoration-thickness: 3px;
+}
+
+/* Group Info */
+.current-members{
 }
 
 
